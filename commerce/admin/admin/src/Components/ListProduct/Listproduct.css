@@ -1,0 +1,97 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Main Container */
+.list-product {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    height: 740px;
+    max-width: 900px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.list-product h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Table Header */
+.listproduct-format-main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 2fr 1fr;
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Product Rows */
+.listproduct-allproduct {
+    margin-top: 10px;
+}
+
+.listproduct-format {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 2fr 1fr;
+    text-align: center;
+    padding: 15px 10px;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+/* Product Images */
+.listproduct-product-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Remove Icon */
+.listproduct-remove-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.listproduct-remove-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Product Text */
+.listproduct-format p {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Highlight Alternate Rows */
+.listproduct-format:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.listproduct-format:nth-child(even) {
+    background-color: #ffffff;
+}
+
+/* Responsive Design */
+
